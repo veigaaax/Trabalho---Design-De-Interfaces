@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de Site</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Projeto do Site</h1>
+      <p>
+        <i>Na</i>
+        <b>barra de navegação</b>
+        <i>possui uma lista de items que são utilizados para navegar entre secções de um site</i>
+      </p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="/">Menu</a></li>
+        <li><a href="/">Principal</a></li>
+        <li><a href="/">Produtos</a></li>
+        <li><a href="/">Serviços</a></li>
+        <li><a href="/">Sobre</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Tabela</h2>
+        <ol>
+          <li>
+            Frutas
+            <ul>
+              <li>Banana</li>
+              <li>Maçã</li>
+              <li>Abacate</li>
+            </ul>
+          </li>
+
+          <li>
+            Legumes
+            <ul>
+              <li>Cebola</li>
+              <li>Pimentão</li>
+              <li>Abacate</li>
+            </ul>
+          </li>
+
+          <li>
+            Cereais
+            <ul>
+              <li>Arroz</li>
+              <li>Feijão</li>
+            </ul>
+          </li>
+        </ol>
+
+        <table>
+          <caption>
+            Lucro por mês
+          </caption>
+          <thead>
+            <tr>
+              <th>Mês</th>
+              <th>Banana</th>
+              <th>Maçã</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Janeiro</td>
+              <td>100</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Fevereiro</td>
+              <td>120</td>
+              <td>100</td>
+            </tr>
+            <tr>
+              <td>Março</td>
+              <td>120</td>
+              <td>150</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Total</td>
+              <td>340</td>
+              <td>300</td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <a href="https://ifrs.edu.br/" target="_blank">
+          <img
+            src="/img/IFRS.jpg"
+            alt="Foto da entrada do IFRS"
+            width="200"
+          >
+        </a>
+
+        <figure>
+          <img
+            src="/img/maça.jpg"
+            alt="Foto de uma maçã cortada sob a mesa"
+            width="200"
+          >
+          <figcaption>Maçã cortada sob a mesa</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2>Formulário</h2>
+        <form>
+          <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" >
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome" >
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" >
+
+            <label>Sexo:</label>
+            <div>
+              <input type="radio" id="masculino" name="sexo" value="masculino" >
+              <label for="masculino">Masculino</label>
+
+              <input type="radio" id="feminino" name="sexo" value="feminino" >
+              <label for="feminino">Feminino</label>
+            </div>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" >
+          </fieldset>
+
+          <fieldset>
+            <legend>Informações de Endereço</legend>
+
+            <label for="rua">Rua:</label>
+            <input type="text" name="rua" id="rua" >
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade" >
+          </fieldset>
+
+          <input type="submit" value="Enviar" >
+        </form>
+
+        <iframe
+          width="420"
+          height="315"
+          src="https://www.youtube.com/embed/tgbNymZ7vqY"
+          title="YouTube video"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <h2 class="footer-title">Nossa Empresa</h2>
+        <p class="footer-text">Endereço: Rua Exemplo, 123</p>
+        <p class="footer-text">Bairro: Centro</p>
+        <p class="footer-text">Cidade: São Paulo, SP</p>
+        <p class="footer-text">CEP: 01234-567</p>
+        <p class="footer-text">Telefone: (11) 1234-5678</p>
+        <p class="footer-text">Email: contato@empresa.com.br</p>
+      </div>
+    </footer>
+  </body>
+</html>
